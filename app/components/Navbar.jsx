@@ -49,9 +49,9 @@ export default function Navbar() {
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
             <div className="flex items-center gap-4">
-                <button>
+                {/* <button>
                     <Image src={assets.moon_icon} className="w-6 cursor-pointer" alt=""/>
-                </button>
+                </button> */}
                 <a href="#contact" className="hidden md:flex items-center gap-3 px-5 lg:px-10 py-2 border border-gray-500 rounded-full ">
                     Contact <Image src={assets.arrow_icon} className="w-3" alt="Arrow"/>
                 </a>
