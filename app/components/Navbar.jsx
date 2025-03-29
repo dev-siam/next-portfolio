@@ -45,8 +45,8 @@ export default function Navbar() {
                 <li><a className="font-ovo" href="#top">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#work">My Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="flex items-center gap-4">
                 {/* <button>
@@ -68,8 +68,8 @@ export default function Navbar() {
                 <li><a onClick={closeMenu} className="font-ovo" href="#top">Home</a></li>
                 <li><a onClick={closeMenu} href="#about">About</a></li>
                 <li><a onClick={closeMenu} href="#services">Services</a></li>
-                <li><a onClick={closeMenu} href="#work">My Work</a></li>
-                <li><a onClick={closeMenu} href="#contact">Contact Me</a></li>
+                <li><a onClick={closeMenu} href="#work">Work</a></li>
+                <li><a onClick={closeMenu} href="#contact">Contact</a></li>
             </ul>
         </nav>
     </>
